@@ -11,7 +11,6 @@ class Home extends Component<any, any> {
             <div id="lower">
                 <div className="body-row" id="lower-wrapper"></div>
                 <div id="ty__footer">
-
                 </div>
             </div>
         </div>)

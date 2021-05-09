@@ -10,5 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="clock" />
+    <orderEntry type="module" module-name="css-learning" />
   </component>
 </module>

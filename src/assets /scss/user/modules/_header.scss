@@ -1,0 +1,32 @@
+@import "../partials/color";
+
+#e-header {
+  width: 1024px;
+  padding: 0;
+  margin: 0 auto 20px auto;
+}
+
+#e-site-title {
+  float: left;
+  width: 500px;
+  height: 160px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  &a {
+    display: block;
+    width: 500px;
+    height: 30px;
+    margin: 0;
+    padding-top: 130px;
+    padding-left: 170px;
+    font-size: 14px;
+    color: $tex-color;
+  }
+}
+
+#e-header-right {
+  float: right;
+  width: 260px;
+  padding-top: 30px;
+  text-align: right;
+}

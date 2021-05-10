@@ -17,8 +17,8 @@ class Header extends Component<any, any> {
                 </a>
                 <div id="e-search-box">
                     <form>
-                        <input type="text"/>
-                        <button>Tìm kiếm</button>
+                        <input type="text" id="e-search-input"/>
+                        <button>Search</button>
                     </form>
                 </div>
             </div>

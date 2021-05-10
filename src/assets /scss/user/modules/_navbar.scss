@@ -8,7 +8,7 @@
 }
 
 #e-navbar {
-  width: 1001px;
+  width: 1004px;
   height: 55px;
   padding-right: 20px;
   margin: 0 auto;
@@ -26,6 +26,7 @@
   }
 
   .e-navbar-tab {
+    float: left;
     display: block;
     position: relative;
     float: left;

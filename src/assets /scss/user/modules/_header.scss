@@ -33,6 +33,23 @@
   text-align: right;
 }
 
+#e-search-box {
+  float: right;
+  width: 260px;
+  padding: 28px 0 0 0;
+  margin-top: 30px;
+}
+
+#e-search-input {
+  color: #333;
+  width: 185px;
+  height: 20px;
+  border: 1px solid #333;
+  background: $tex-color;
+  padding: 0 5px;
+}
+
+
 #e-icon-twitter {
   background-image: url("../../../images/icon_twitter.png");
 }

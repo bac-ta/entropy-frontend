@@ -22,10 +22,16 @@ class NavBar extends Component<any, any> {
                             <div className="e-navbar-tab"><a>C#</a></div>
                         </li>
                         <li>
+                            <div className="e-navbar-tab"><a>Go lang</a></div>
+                        </li>
+                        <li>
                             <div className="e-navbar-tab"><a>Database</a></div>
                         </li>
                         <li>
                             <div className="e-navbar-tab"><a>DevOps</a></div>
+                        </li>
+                        <li>
+                            <div className="e-navbar-tab"><a>About me</a></div>
                         </li>
                     </ul>
                 </div>

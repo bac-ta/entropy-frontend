@@ -1,0 +1,48 @@
+@import "../partials/color";
+
+.e-navbar-wrapper {
+  clear: both;
+  width: 100%;
+  height: 55px;
+  background: url("../../../images/navbar_wrapper.jpg");
+}
+
+#e-navbar {
+  width: 1001px;
+  height: 55px;
+  padding-right: 20px;
+  margin: 0 auto;
+  background-color: #262626;
+
+  ul {
+    height: 33px;
+    margin: 0;
+    padding-top: 8px;
+    list-style: none;
+
+    li {
+      display: inline-block;
+    }
+  }
+
+  .e-navbar-tab {
+    display: block;
+    position: relative;
+    float: left;
+    height: 26px;
+    padding: 7px 28px;
+    font-size: 15px;
+    color: $tex-color;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+    outline: none;
+
+    &:hover {
+      background-color: black;
+      border-radius: 5px;
+      cursor: pointer;
+      color: $link-color;
+    }
+  }
+}

@@ -12,15 +12,17 @@
   height: 160px;
   font-family: Georgia, "Times New Roman", Times, serif;
 
-  &a {
+  a {
     display: block;
     width: 500px;
     height: 30px;
     margin: 0;
-    padding-top: 130px;
+    padding-top: 150px;
     padding-left: 170px;
     font-size: 14px;
-    color: $tex-color;
+    color: $info-blog-text-color;
+    text-decoration: none;
+    background: url("../../../images/logo.png") no-repeat top left;
   }
 }
 
@@ -29,4 +31,12 @@
   width: 260px;
   padding-top: 30px;
   text-align: right;
+}
+
+#e-icon-twitter {
+  background-image: url("../../../images/icon_twitter.png");
+}
+
+#e-icon-rss {
+  background-image: url("../../../images/icon_rss.png");
 }

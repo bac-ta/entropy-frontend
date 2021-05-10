@@ -1,0 +1,15 @@
+@import "color";
+
+@mixin hover {
+  color: $tex-color;
+  background: url("../../../images/background_navbar_right.jpg") no-repeat top right;
+}
+
+@mixin hoverSpan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 33px;
+  background: url("../../../images/background_navbar_left.jpg") no-repeat;
+}

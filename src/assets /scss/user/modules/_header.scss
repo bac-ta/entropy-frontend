@@ -1,4 +1,5 @@
 @import "../partials/color";
+@import "../partials/mixin";
 
 #e-header {
   width: 1024px;
@@ -17,7 +18,7 @@
     width: 500px;
     height: 30px;
     margin: 0;
-    padding-top: 150px;
+    padding-top: 160px;
     padding-left: 170px;
     font-size: 14px;
     color: $info-blog-text-color;
@@ -29,31 +30,72 @@
 #e-header-right {
   float: right;
   width: 260px;
-  padding-top: 30px;
+  padding-top: 20px;
   text-align: right;
-}
 
-#e-search-box {
-  float: right;
-  width: 260px;
-  padding: 28px 0 0 0;
-  margin-top: 30px;
-}
+  .e-account {
+    float: right;
+    font-size: 15px;
 
-#e-search-input {
-  color: #333;
-  width: 185px;
-  height: 20px;
-  border: 1px solid #333;
-  background: $tex-color;
-  padding: 0 5px;
-}
+    &__sigin {
+      border: none;
+      @include singInSignUpButtonStyle(12px);
+
+      &:active {
+        @include singInSignUpButtonActive;
+      }
+
+      &:hover {
+        @include singInSignUpButtonHover;
+      }
+    }
+
+    &__signup {
+      border: 1px solid #13619f;
+      @include singInSignUpButtonStyle(15px);
 
 
-#e-icon-twitter {
-  background-image: url("../../../images/icon_twitter.png");
-}
+      &:active {
+        @include singInSignUpButtonActive;
+      }
 
-#e-icon-rss {
-  background-image: url("../../../images/icon_rss.png");
+      &:hover {
+        @include singInSignUpButtonHover;
+      }
+    }
+
+  }
+
+  .e-search-box {
+    float: right;
+    width: 300px;
+    padding: 28px 0 0 0;
+    margin-top: 30px;
+    display: flex;
+
+    .e-search-input {
+      color: #333;
+      width: 260px;
+      height: 25px;
+      border: 1px solid #333;
+      background: $tex-color;
+      padding: 0 5px;
+    }
+
+    .e-search-button {
+      float: right;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  #e-icon-twitter {
+    background-image: url("../../../images/icon_twitter.png");
+  }
+
+  #e-icon-rss {
+    background-image: url("../../../images/icon_rss.png");
+  }
 }

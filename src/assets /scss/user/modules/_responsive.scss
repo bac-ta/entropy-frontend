@@ -1,0 +1,28 @@
+//Hide the navigation
+
+@media screen and (max-width: 600px) {
+  .e-navbar ul {
+    display: none;
+
+    .e-navbar-icon {
+      float: right;
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .e-navbar-wrapper.e-navbar.responsive {
+    display: none;
+  }
+  .e-navbar-wrapper.e-navbar.responsive a.e-navbar-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .e-navbar-wrapper.e-navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

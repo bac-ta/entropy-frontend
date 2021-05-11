@@ -5,8 +5,8 @@ class NavBar extends Component<any, any> {
     render() {
         return (
             <BrowserRouter>
-                <div className="e-navbar-wrapper" id="e-navbar-wrapper">
-                    <div className="e-navbar">
+                <div id="e-navbar-wrapper">
+                    <div id="e-navbar">
                         <ul>
                             <li>
                                 <Link to="/" className="e-navbar-item e-current"><span/>Home</Link>

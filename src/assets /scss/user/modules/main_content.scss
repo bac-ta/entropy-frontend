@@ -1,0 +1,67 @@
+@import "../partials/color";
+
+#e-content-wrapper {
+  clear: both;
+  position: relative;
+  width: 964px;
+  padding: 0 30px 50px;
+  margin: 0 auto;
+  background: $main-content-background-color url("../../../images/background_main_content_top.jpg") no-repeat;
+
+  .e-tm-bottom {
+    position: absolute;
+    width: 1024px;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    background: url("../../../images/background_main_content_bottom.jpg") no-repeat;
+  }
+
+  #e-post-content {
+    width: 650px;
+    float: left;
+    padding: 30px 30px 30px 0;
+    border-right: 1px dashed $content-dashed-color;
+
+    .e-post-content__box {
+      clear: both;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dashed $content-dashed-color;
+
+      &__header {
+        position: relative;
+        margin-bottom: 10px;
+
+        h2 {
+          margin: 0;
+          padding: 5px 0;
+        }
+
+        &__tag {
+          font-size: 11px;
+          color: $tag-color;
+        }
+
+        &__posted-date {
+          position: absolute;
+          font-size: 11px;
+          color: $posted-color;
+          top: 0;
+          right: 0;
+          width: 45px;
+          height: 45px;
+          padding: 8px 3px 0 0;
+          text-align: center;
+          background: url("../../../images/background_date.jpg") no-repeat;
+
+          strong {
+            display: block;
+            margin-top: 5px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

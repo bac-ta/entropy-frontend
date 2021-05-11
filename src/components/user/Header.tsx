@@ -1,6 +1,8 @@
 import {Component} from "react";
 import twitterIcon from "../../assets /images/icon_twitter.png";
 import facebookIcon from "../../assets /images/icon_facebook.png";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faSearch} from "@fortawesome/free-solid-svg-icons";
 
 class Header extends Component<any, any> {
     render() {
@@ -15,10 +17,15 @@ class Header extends Component<any, any> {
                 <a href="#">
                     <img src={twitterIcon}/>
                 </a>
-                <div id="e-search-box">
+                <div className="e-account">
+                    <button className="e-account__signup">Sign Up</button>
+                    <button className="e-account__sigin">Sign In</button>
+                </div>
+                <div className="e-search-box">
                     <form>
-                        <input type="text" id="e-search-input"/>
-                        <button>Search</button>
+                        <input type="text" className="e-search-input"/>
+                        <div className="e-search-button"><FontAwesomeIcon icon={faSearch} size="2x"></FontAwesomeIcon>
+                        </div>
                     </form>
                 </div>
             </div>

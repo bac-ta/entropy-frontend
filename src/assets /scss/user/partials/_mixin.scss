@@ -1,6 +1,6 @@
 @import "color";
 
-@mixin hover {
+@mixin hoverNavBar {
   color: $tex-color;
   background: url("../../../images/background_navbar_right.jpg") no-repeat top right;
 }
@@ -56,4 +56,8 @@
 @mixin singInSignUpButtonHover {
   cursor: pointer;
   background-color: $search-background-color;
+}
+@mixin hoverLink{
+  cursor: pointer;
+  color: $tex-color;
 }

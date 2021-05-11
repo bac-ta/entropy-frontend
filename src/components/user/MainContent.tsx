@@ -8,6 +8,15 @@ class MainContent extends Component<any, any> {
             <span className="e-tm-bottom"></span>
             <div id="e-post-content">
                 <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
+                <Post/>
             </div>
             <div id="e-side-bar">
                 <SideBar/>

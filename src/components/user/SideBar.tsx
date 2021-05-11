@@ -3,10 +3,12 @@ import {BrowserRouter, Link} from "react-router-dom";
 
 class SideBar extends Component<any, any> {
     render() {
-        return (<div className="e-side-bar__box">
-            <h3>Categories</h3>
-            <div className="e-side-bar__box__content">
-                <ul className="e-side-bar__box__content__menu">
+        return (<div className="e-side-bar-box">
+            <h3>
+                New Post
+            </h3>
+            <div className="e-side-bar-box__content">
+                <ul className="e-side-bar-box__content__menu">
                     <BrowserRouter>
                         <li>
                             <Link to="">DevOps</Link>

@@ -1,4 +1,5 @@
 @import "../partials/color";
+@import "../partials/mixin";
 
 #e-content-wrapper {
   clear: both;
@@ -17,6 +18,7 @@
     background: url("../../../images/background_main_content_bottom.jpg") no-repeat;
   }
 
+  //Post
   #e-post-content {
     width: 650px;
     float: left;
@@ -38,9 +40,24 @@
           padding: 5px 0;
         }
 
+        &__title {
+          color: $posted-header-title-color;
+          font-weight: normal;
+          text-decoration: none;
+        }
+
         &__tag {
-          font-size: 11px;
+          font-size: 12px;
           color: $tag-color;
+
+          a {
+            font-size: 12px;
+            color: $info-blog-text-color;
+
+            &:hover {
+              @include hoverLink;
+            }
+          }
         }
 
         &__posted-date {
@@ -61,6 +78,49 @@
             font-weight: bold;
           }
         }
+      }
+
+      &__short-content {
+        float: right;
+        width: 500px;
+
+        &__go-post {
+          display: block;
+          margin-top: 15px;
+          padding: 3px 0 0 25px;
+          background: url("../../../images/go_post_icon.jpg") no-repeat bottom left;
+
+          a {
+            color: $info-blog-text-color;
+
+            &:hover {
+              @include hoverLink;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //Side bar
+  #e-side-bar {
+    float: right;
+    width: 280px;
+
+    .e-side-bar-box {
+      clear: both;
+
+      h3 {
+        width: 190px;
+        height: 38px;
+        margin: 0;
+        padding: 42px 0 0 90px;
+        color: $tex-color;
+        background: url("../../../images/background_sidebar_header.png") no-repeat left top;
+      }
+
+      &__content {
+
       }
     }
   }

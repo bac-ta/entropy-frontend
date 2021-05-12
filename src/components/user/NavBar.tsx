@@ -12,25 +12,25 @@ class NavBar extends Component<any, any> {
                                 <Link to="/" className="e-navbar-item e-current"><span/>Home</Link>
                             </li>
                             <li>
-                                <Link to="/java" className="e-navbar-item"><span/>Java</Link>
+                                <Link to="/databases-caches" className="e-navbar-item"><span/>Languages</Link>
                             </li>
                             <li>
-                                <Link to="/python" className="e-navbar-item"><span/>Python</Link>
+                                <Link to="/databases" className="e-navbar-item"><span/>Databases</Link>
                             </li>
                             <li>
-                                <Link to="/javascript" className="e-navbar-item"><span/>JavaScript</Link>
-                            </li>
-                            <li>
-                                <Link to="/golang" className="e-navbar-item"><span/>Golang</Link>
-                            </li>
-                            <li>
-                                <Link to="/database" className="e-navbar-item"><span/>Database</Link>
+                                <Link to="/caches" className="e-navbar-item"><span/>Caches</Link>
                             </li>
                             <li>
                                 <Link to="/devops" className="e-navbar-item"><span/>DevOps</Link>
                             </li>
                             <li>
-                                <Link to="/about-me" className="e-navbar-item"><span/>About Me</Link>
+                                <Link to="/bigdata" className="e-navbar-item"><span/>BigData</Link>
+                            </li>
+                            <li>
+                                <Link to="/stories" className="e-navbar-item"><span/>Stories</Link>
+                            </li>
+                            <li>
+                                <Link to="/stories" className="e-navbar-item"><span/>About Me</Link>
                             </li>
                         </ul>
                         <div className="e-navbar-icon" onClick={this.toggleResponsive}>

@@ -7,7 +7,8 @@ class Post extends Component<any, any> {
         return (<BrowserRouter>
             <div className="e-post-content__box">
                 <div className="e-post-content__box__header">
-                    <h2><Link to="/" className="e-post-content__box__header__title">Title</Link></h2>
+                    <h3><Link to="/" className="e-post-content__box__header__title">Thấy con khóc òa, mắt mẹ lệ nhòa,
+                        cám ơn vì con đến bên mẹ, này con yêu ơi , con biết không, mẹ yêu con , yêu con rất nhiều</Link></h3>
                     <div className="e-post-content__box__header__tag">
                         <strong>Tags:</strong>
                         <Link to="">Java,&nbsp;</Link>

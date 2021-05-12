@@ -57,7 +57,21 @@
   cursor: pointer;
   background-color: $search-background-color;
 }
-@mixin hoverLink{
+
+@mixin hoverLink {
   cursor: pointer;
   color: $tex-color;
+}
+
+@mixin postImageStyle($postImageWidth, $postImageHeight, $postImageBorderSize) {
+  width: $postImageWidth;
+  height: $postImageHeight;
+  border: $postImageBorderSize solid $tex-color;
+  float: left;
+}
+
+@mixin postTitleStyle {
+  color: $posted-header-title-color;
+  font-weight: normal;
+  text-decoration: none;
 }

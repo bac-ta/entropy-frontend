@@ -30,7 +30,7 @@ class NavBar extends Component<any, any> {
                                 <Link to="/stories" className="e-navbar-item"><span/>Stories</Link>
                             </li>
                             <li>
-                                <Link to="/stories" className="e-navbar-item"><span/>About Me</Link>
+                                <Link to="/about-me" className="e-navbar-item"><span/>About Me</Link>
                             </li>
                         </ul>
                         <div className="e-navbar-icon" onClick={this.toggleResponsive}>

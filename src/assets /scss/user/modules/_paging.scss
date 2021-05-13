@@ -1,0 +1,17 @@
+@import "../partials/color";
+@import "../partials/mixin";
+
+.e-paging {
+  display: inline-block;
+  margin-left: 100px;
+
+  a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+
+    &:hover {
+      @include hoverLink;
+    }
+  }
+}

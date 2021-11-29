@@ -11,5 +11,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="clock" />
     <orderEntry type="module" module-name="css-learning" />
+    <orderEntry type="module" module-name="svm-admin-webapp" />
   </component>
 </module>

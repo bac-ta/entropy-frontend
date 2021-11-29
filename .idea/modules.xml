@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../clock/.idea/clock.iml" filepath="$PROJECT_DIR$/../clock/.idea/clock.iml" />
       <module fileurl="file://$PROJECT_DIR$/../tutorial-new-technology/css-learning/.idea/css-learning.iml" filepath="$PROJECT_DIR$/../tutorial-new-technology/css-learning/.idea/css-learning.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/entropy-frontend.iml" filepath="$PROJECT_DIR$/.idea/entropy-frontend.iml" />
+      <module fileurl="file://$USER_HOME$/devops_workspace/front-end/svm-admin-webapp/.idea/svm-admin-webapp.iml" filepath="$USER_HOME$/devops_workspace/front-end/svm-admin-webapp/.idea/svm-admin-webapp.iml" />
     </modules>
   </component>
 </project>

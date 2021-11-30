@@ -1,8 +1,7 @@
-const SignIn = ({isShowSignIn}) => {
+const SignIn = () => {
     return (
-        <div className={`${!isShowSignIn ? "e-signin-show__active" : ""} e-sigin-show`}>
+        <div>
             <div className="e-sign-in">
-                <p>Hello world</p>
                 <div id="e-signin-logo"></div>
                 <div id="e-username-or-email">
                     <input type="text"/>

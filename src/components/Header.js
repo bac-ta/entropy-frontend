@@ -2,12 +2,10 @@ import twitterIcon from "../assets /images/icon_twitter.png";
 import facebookIcon from "../assets /images/icon_facebook.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
-import {useState} from "react";
 
 const Header = () => {
-    const [isShowSignIn, setIsShowSignIn] = useState(false);
     const clickSignIn = () => {
-        setIsShowSignIn(!isShowSignIn);
+
     }
 
     return (<div id="e-header">

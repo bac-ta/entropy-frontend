@@ -2,10 +2,13 @@ import twitterIcon from "../assets /images/icon_twitter.png";
 import facebookIcon from "../assets /images/icon_facebook.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
+import {useState} from "react";
+import SignIn from "../views/authentications/SignIn";
 
 const Header = () => {
+    const [isOpenSignInPopup, setSignInPopupState] = useState(false);
     const clickSignIn = () => {
-
+        setSignInPopupState(!isOpenSignInPopup);
     }
 
     return (<div id="e-header">
@@ -22,6 +25,7 @@ const Header = () => {
             <div className="e-account">
                 <button className="e-account__signup">Sign Up</button>
                 <button className="e-account__signin" onClick={clickSignIn}>Sign In</button>
+                <SignIn isOpenSignInPopup ={isOpenSignInPopup}/>
             </div>
             <div className="e-search-box">
                 <form>

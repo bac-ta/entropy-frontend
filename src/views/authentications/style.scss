@@ -20,19 +20,20 @@
     width: 80%;
     text-align: center;
     font-weight: bold;
+    color: #FFFFFF;
   }
 }
 
 /* The Close Button */
 .e-sign-in-close {
-  color: #aaaaaa;
+  color: #FFFFFF;
   float: right;
   font-size: 28px;
   font-weight: bold;
 
   &:hover,
   &:focus {
-    color: #000;
+    color: red;
     text-decoration: none;
     cursor: pointer;
   }

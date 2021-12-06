@@ -7,9 +7,6 @@ import SignIn from "../views/authentications/SignIn";
 
 const Header = () => {
     const [isOpenSignInPopup, setSignInPopupState] = useState(false);
-    const clickSignIn = () => {
-        setSignInPopupState(!isOpenSignInPopup);
-    }
 
     return (<div id="e-header">
         <div id="e-site-title">
@@ -24,8 +21,9 @@ const Header = () => {
             </a>
             <div className="e-account">
                 <button className="e-account__signup">Sign Up</button>
-                <button className="e-account__signin" onClick={clickSignIn}>Sign In</button>
-                <SignIn isOpenSignInPopup ={isOpenSignInPopup}/>
+                <button className="e-account__signin" onClick={() => setSignInPopupState(true)}>Sign In
+                </button>
+                {isOpenSignInPopup && <SignIn/>}
             </div>
             <div className="e-search-box">
                 <form>

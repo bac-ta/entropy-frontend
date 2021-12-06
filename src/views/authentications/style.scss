@@ -1,0 +1,49 @@
+.e-sign-in-modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 1085px;
+  top: 100px;
+  width: 350px;
+  height: 300px;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+
+  /* Modal Content */
+  &__content {
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #20c4d3;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+/* The Close Button */
+.e-sign-in-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+.e-sign-in-btn {
+  margin-top: 50px;
+  margin-right: 140px;
+  background: #20c4d3;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
